@@ -9,4 +9,4 @@ receivers:
             channel: '#alerts'
             title: "{{ range .Alerts }}{{ .Annotations.summary }}\n{{ end }}"
             text: "{{ range .Alerts }}{{ .Annotations.description }}\n{{ end }}"
-            api_url: 'https://hooks.slack.com/services/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'
+            api_url: "Add URL Webhook"

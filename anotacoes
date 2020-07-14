@@ -1,2 +1,2 @@
 ALERTS{alertname="InstanceDown"}
-alertmanager-global.slack.com
+
